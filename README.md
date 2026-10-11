@@ -39,7 +39,15 @@ flutter install
 
 ## Estructura principal
 
-- `lib/main.dart`: interfaz, detección del emisor y transmisión de comandos.
+- `lib/main.dart`: punto de entrada de la aplicación.
+- `lib/app.dart`: tema global y configuración de la pantalla inicial.
+- `lib/screens/remote_screen.dart`: estado de la pantalla, detección del emisor y coordinación de comandos.
+- `lib/widgets/remote_control_panel.dart`: distribución de botones y controles del mando.
+- `lib/widgets/remote_buttons.dart`: botones reutilizables del mando.
+- `lib/widgets/device_card.dart` y `lib/widgets/ir_status_card.dart`: tarjetas del televisor y del estado IR.
+- `lib/services/infrared_service.dart`: consulta del emisor y transmisión de patrones infrarrojos.
+- `lib/data/tcl_remote_codes.dart`: mapa de códigos del perfil del control.
+- `lib/theme/app_colors.dart`: colores compartidos de la interfaz.
 - `android/app/src/main/AndroidManifest.xml`: permiso `TRANSMIT_IR` y declaración opcional de hardware Consumer IR.
 - `pubspec.yaml`: dependencias Flutter.
 

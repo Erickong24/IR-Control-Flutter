@@ -42,3 +42,8 @@ flutter install
 - `lib/main.dart`: interfaz, detección del emisor y transmisión de comandos.
 - `android/app/src/main/AndroidManifest.xml`: permiso `TRANSMIT_IR` y declaración opcional de hardware Consumer IR.
 - `pubspec.yaml`: dependencias Flutter.
+
+## Autor y contacto
+
+- **Autor:** Eripoce Pinto Carrillo
+- **Correo institucional:** [ejosepinto@unicesar.edu.co](mailto:ejosepinto@unicesar.edu.co)

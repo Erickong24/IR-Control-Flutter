@@ -45,5 +45,5 @@ flutter install
 
 ## Autor y contacto
 
-- **Autor:** Eripoce Pinto Carrillo
+- **Autor:** Erick jose Pinto Carrillo
 - **Correo institucional:** [ejosepinto@unicesar.edu.co](mailto:ejosepinto@unicesar.edu.co)
